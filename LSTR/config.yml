@@ -43,7 +43,7 @@ Architecture:
     hidden_size: 256
   Head:
     name: CTCHead
-    fc_decay: 0
+    fc_decay: 0.004
 
 Loss:
   name: CTCLoss
