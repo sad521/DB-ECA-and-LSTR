@@ -10,8 +10,8 @@ The fastest way to start is to replace our file based on PaddleOCR and run it<br
 >> +CUDA11.6<br/>
 >> +Cudnn 8.4.0<br/>
 > setup<br/>
->>git clone https://github.com/PaddlePaddle/PaddleOCR.git
->> pip install paddlepaddle-gpu
->> pip install -r requirements.txt
+>>git clone https://github.com/PaddlePaddle/PaddleOCR.git<br/>
+>> pip install paddlepaddle-gpu<br/>
+>> pip install -r requirements.txt<br/>
 
 Replace the neck part with DB-ECA.py/LSTR in the config file and run it
