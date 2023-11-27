@@ -9,7 +9,7 @@ The fastest way to start is to replace our file based on PaddleOCR and run it<br
 >> +Python3.7<br/>
 >> +CUDA11.6<br/>
 >> +Cudnn 8.4.0<br/>
->_setup_<br/>
+>**setup**<br/>
 >>git clone https://github.com/PaddlePaddle/PaddleOCR.git<br/>
 >> pip install paddlepaddle-gpu<br/>
 >> pip install -r requirements.txt<br/>
