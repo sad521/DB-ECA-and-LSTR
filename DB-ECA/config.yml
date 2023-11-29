@@ -3,12 +3,12 @@ Global:
   epoch_num: 50
   log_smooth_window: 20
   print_batch_step: 10
-  save_model_dir: ./output/det_r50_vd/
+  save_model_dir: ./output/det_DB_ECA/
   save_epoch_step: 1200
   # evaluation is run every 2000 iterations
   eval_batch_step: [0,500]
   cal_metric_during_train: False
-  pretrained_model: ./output/det_r50_vd/latest
+  pretrained_model: ./output/det_DB_ECA/latest
   checkpoints:
   save_inference_dir:
   use_visualdl: true
