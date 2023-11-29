@@ -177,7 +177,7 @@ class BottleneckBlock(nn.Layer):
                 out_channels=out_channels * 4,
                 kernel_size=1,
                 stride=1,
-                is_vd_mode=False if if_first else True)
+                is_vd_mode=True)
 
         self.shortcut = shortcut
 
