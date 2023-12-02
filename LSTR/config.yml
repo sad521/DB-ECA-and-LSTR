@@ -58,8 +58,8 @@ Metric:
 Train:
   dataset: 
     name: SimpleDataSet        
-    data_dir: ./train_data/bestNewData/trainImage 
-    label_file_list:  ./train_data/bestNewData/fileTrainLabel.txt
+    data_dir: ./train_data/trainImage 
+    label_file_list:  ./train_data/fileTrainLabel.txt
     transforms:
       - DecodeImage: # load image
           img_mode: BGR
@@ -78,8 +78,8 @@ Train:
 Eval:
   dataset:
     name: SimpleDataSet
-    data_dir: ./train_data/bestNewData/testImage
-    label_file_list: ./train_data/bestNewData/fileTestLabel.txt
+    data_dir: ./train_data/testImage
+    label_file_list: ./train_data/fileTestLabel.txt
     transforms:
       - DecodeImage: # load image
           img_mode: BGR
