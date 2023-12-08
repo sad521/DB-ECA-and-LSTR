@@ -103,9 +103,9 @@ Train:
 Eval:
   dataset:
     name: SimpleDataSet
-    data_dir: ./train_data/train/
+    data_dir: ./test_data/test/
     label_file_list:
-      - ./train_data/train/LabelTest.txt
+      - ./test_data/test/LabelTest.txt
     transforms:
       - DecodeImage: # load image
           img_mode: BGR
