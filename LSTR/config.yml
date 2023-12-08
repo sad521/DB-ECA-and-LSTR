@@ -78,8 +78,8 @@ Train:
 Eval:
   dataset:
     name: SimpleDataSet
-    data_dir: ./train_data/testImage
-    label_file_list: ./train_data/fileTestLabel.txt
+    data_dir: ./test_data/testImage
+    label_file_list: ./test_data/fileTestLabel.txt
     transforms:
       - DecodeImage: # load image
           img_mode: BGR
