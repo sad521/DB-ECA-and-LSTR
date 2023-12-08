@@ -63,7 +63,7 @@ Train:
     name: SimpleDataSet 
     data_dir: ./train_data/train/
     label_file_list:
-      - ./train_data/train/LabelTest.txt
+      - ./train_data/train/LabelTrain.txt
     ratio_list: [1.0]
     transforms:
       - DecodeImage: # load image
